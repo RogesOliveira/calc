@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Calcular - Renda Fixada - Liberdade FInanceira</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Liberdade Financeira</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Calculadora de Liberdade Financeira</h1>
+    <form id="fixada-form">
+      <div class="form-group">
+        <label for="initial-amount">Você tem algum valor guardado? Se sim, coloque quanto (R$) - Se você não tem nenhum valor guardado, coloque "0":</label>
+        <input type="number" id="initial-amount" required>
+      </div>
+      <div class="form-group">
+        <label for="monthly-contribution">Quanto você vai guardar por mês? (R$):</label>
+        <input type="number" id="monthly-contribution" required>
+      </div>
+      <div class="form-group">
+        <label for="monthly-expenses">Despesas Mensais (R$):</label>
+        <input type="number" id="monthly-expenses" required>
+      </div>
+      <div class="form-group">
+        <label for="interest-rate">Taxa de Juros Anual (%):</label>
+        <input type="number" id="interest-rate" required>
+      </div>
+      <button type="button" onclick="calculateFixada()">Calcular</button>
+      <button id="dark-mode-toggle" onclick="toggleDarkMode()">Modo Escuro</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
