@@ -17,7 +17,7 @@
 <body>
   <div class="container">
     <div class="message">
-      <p>Bem-vindo à Calculadora de Liberdade Financeira! Use esta ferramenta para calcular quanto você precisa economizar e investir para atingir a sua liberdade financeira. A ideia é que você tenha uma renda fixa que cubra todas as suas despesas mensais, permitindo que seu salário seja totalmente poupado ou investido.</p>
+      <p>Bem-vindo à Calculadora de Liberdade Financeira! Use esta ferramenta para calcular quanto você precisa economizar e investir para atingir a sua liberdade financeira. A ideia é que você tenha uma renda fixa que cubra todas as suas despesas mensais, permitindo que seu salário seja totalmente poupado ou reinvestido.</p>
     </div>
     <h1>Calculadora de Liberdade Financeira</h1>
     <form id="fixada-form">
@@ -26,15 +26,15 @@
         <input type="number" id="initial-amount" required>
       </div>
       <div class="form-group">
-        <label for="monthly-contribution">Quanto você vai guardar por mês? (R$):</label>
+        <label for="monthly-contribution">Quanto dinheiro você vai conseguir guardar por mês? (R$):</label>
         <input type="number" id="monthly-contribution" required>
       </div>
       <div class="form-group">
-        <label for="monthly-expenses">Despesas Mensais (R$):</label>
+        <label for="monthly-expenses">Despesas Mensais Fixas - Aluguel, luz, agua, internet e comida(R$):</label>
         <input type="number" id="monthly-expenses" required>
       </div>
       <div class="form-group">
-        <label for="interest-rate">Taxa de Juros Anual (%):</label>
+        <label for="interest-rate">Taxa de Juros Anual (Atualmente é possivel obter algo entre 10% e 12% de renda fixa ao ano, em qualquer banco) (%):</label>
         <input type="number" id="interest-rate" required>
       </div>
       <button type="button" onclick="calculateFixada()">Calcular</button>
